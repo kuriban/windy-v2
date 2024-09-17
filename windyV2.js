@@ -10632,6 +10632,7 @@ function() {
     // n.href = "https://www.windy.com/v/" + W.assets + "/lib.css",
     document.head.appendChild(n), window.windyInit = function(e, t) {
     GOOGLE_MAPS_URL = e.tileUrl;
+    console.log('GOOGLE_MAPS_URL', GOOGLE_MAPS_URL);
     document.readyState !== "loading" ? i(e, t) : document.addEventListener("DOMContentLoaded", i.bind(null, e, t))
   }
 }();
