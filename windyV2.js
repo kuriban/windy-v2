@@ -9939,6 +9939,7 @@ window.W = Object.assign(window.W || {}, {
       i = null,
       r = null;
     b = t, y = n, t !== "hi" && n !== "in" || (i = "in", r = [44, 24, 50, 28, 6]);
+    console.log('o.tileServer', o.tileServer);
     let s, l = {
         graymap: GOOGLE_MAPS_URL,
         // graymap: o.tileServer + "/tiles/v10.0/darkmap" + e + "/{z}/{x}/{y}.png",
