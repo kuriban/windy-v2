@@ -4751,7 +4751,7 @@ window.W = Object.assign(window.W || {}, {
           velocity: 1,
           width: 1,
           blending: 1,
-          opacity: 1
+          opacity: 0
         },
         save: !0,
         allowed: function(e) {
