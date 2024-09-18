@@ -4751,7 +4751,7 @@ window.W = Object.assign(window.W || {}, {
           velocity: 1,
           width: 1,
           blending: 1,
-          opacity: 0
+          opacity: 1
         },
         save: !0,
         allowed: function(e) {
@@ -9939,7 +9939,6 @@ window.W = Object.assign(window.W || {}, {
       i = null,
       r = null;
     b = t, y = n, t !== "hi" && n !== "in" || (i = "in", r = [44, 24, 50, 28, 6]);
-    console.log('o.tileServer', o.tileServer);
     let s, l = {
         graymap: GOOGLE_MAPS_URL,
         // graymap: o.tileServer + "/tiles/v10.0/darkmap" + e + "/{z}/{x}/{y}.png",
@@ -10632,7 +10631,6 @@ function() {
     // n.href = "https://www.windy.com/v/" + W.assets + "/lib.css",
     document.head.appendChild(n), window.windyInit = function(e, t) {
     GOOGLE_MAPS_URL = e.tileUrl;
-    console.log('GOOGLE_MAPS_URL', GOOGLE_MAPS_URL);
     document.readyState !== "loading" ? i(e, t) : document.addEventListener("DOMContentLoaded", i.bind(null, e, t))
   }
 }();
